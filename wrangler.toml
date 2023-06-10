@@ -1,0 +1,4 @@
+name = "cf-worker-private"
+main = "./index.js"
+compatibility_date = "2023-06-08"
+workers_dev = false
