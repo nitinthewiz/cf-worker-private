@@ -20,8 +20,6 @@ async function doRedirects(request) {
         }
         let newLocation = newLocationProtocol + newLocationHost + newLocationPath;
         return Response.redirect(newLocation, 302);
-        // return fetch(newLocation);
     }
-    // return fetch(request);
     return Response.redirect(newLocationProtocol + newLocationHost, 302);
 }
